@@ -1,22 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Elbasan&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
-    background-color: rgb(222, 221, 245);
-    color: antiquewhite;
-    font-family: "DynaPuff", system-ui
+    background-color: black;
+    color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
+    /* * Muda o tipo da fonte */
+}
+p{
+    color: blueviolet;
+    /* *muda a cor do TEXTO */
+    background-color: bisque;
+    /* *muda a cor do FUNDO*/
+}
+h1{
+    text-align: center;
+    /* * Coloca o texto no centro */
+    font-weight: 100;
+    /* * "Grossura" da fonte/ Peso da fonte */
+    font-size: 40px;
+    /* * Tamanho da fonte */
+}
+header{
+    background-color: rgb(255, 0, 0);
+    margin: 100px ;
+    /* * Espaçamento externo ao objeto */
+    padding: 100px;
+    /* * Espaçamento interno ao objeto */
+}
+nav{
+    text-align: center;
 }
 
-h1{
- color: rgb(75, 161, 133);
- text-align: center;
- font-weight: 400;
- font-size: 50px;
-    }
+a{ 
+    color: #fff;
+    text-decoration: none;
+}
 
-    header{
-        color: bisque;
-        text-align: center;
-    }
-    a{
-        color: rgb(115, 172, 172);
-        text-decoration: wavy;
-    }
+.primeiro-titulo{
+    color: rgb(255, 140, 0);
+}
+
+.segundo-titulo{
+    color: rgb(80, 131, 202);
+}
+
+/* * Lembrete -> Para selecionarmos uma CLASSE
+* para alterar, começamos com ponto final. */
