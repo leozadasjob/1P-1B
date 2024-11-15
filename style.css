@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+body{
+    background-color: rgb(222, 221, 245);
+    color: antiquewhite;
+    font-family: "DynaPuff", system-ui
+}
+
+h1{
+ color: rgb(75, 161, 133);
+ text-align: center;
+ font-weight: 400;
+ font-size: 50px;
+    }
+
+    header{
+        color: bisque;
+        text-align: center;
+    }
+    a{
+        color: rgb(115, 172, 172);
+        text-decoration: wavy;
+    }
